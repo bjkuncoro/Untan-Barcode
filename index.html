@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en"> <!--<![endif]-->
+
+<head>
+    <meta charset="utf-8" />
+    <title>Home | ukieCard</title>
+    <meta name="author" content="ukieweb" />
+    <meta name="keywords" content="ukieCard, css3, template, html5 template" />
+    <meta name="description" content="ukieCard - Personal Vcard & Resume HTML Template" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <link type="text/css" media="all" href="assets/boostrap-files/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/sweetalert2/6.4.4/sweetalert2.min.css">
+    <link type="text/css" media="all" href="assets/css/style.css" rel="stylesheet" />
+    <link href="assets/css/colour-scheme/color-blue.css" rel="stylesheet" type="text/css" data-color="color-blue" media="all" id="stylesheet-new">
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,100,100italic,200,200italic,300,300italic,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Abel|Nanum+Pen+Script" rel="stylesheet">
+
+</head>
+<style>
+    .start_descrition{
+        z-index: 9;
+    text-align: center;
+    position: absolute;
+    width: 1200px;
+    /* top: 50%; */
+    margin-top: 170px;
+    left: 50%;
+    margin-left: -600px;
+    white-space: normal;
+    }
+    .h1{
+    font-size: 80px;
+    /* text-transform: uppercase; */
+    font-weight: 300;
+    font-family: 'Nanum Pen Script', cursive;
+    color: #ffffff;
+    }
+    .span{
+    font-family: 'Abel', sans-serif;
+    font-size: 22px;
+    /* font-weight: 100; */
+    color: #ffffff;
+    /* line-height: 36px; */
+    }
+    .dona{
+    display: block;
+    width: 150px;
+    height: 1px;
+    background: #47A5F5;
+    margin: 40px auto;
+    }
+    .seacrh_promo{
+    max-width: 900px;
+    margin: 40px auto;
+    }
+
+
+</style>
+<body>
+
+    <!-- Load page -->
+    <div class="animationload">
+        <div class="loader"></div>
+    </div>
+    <!-- End load page -->
+    <div style="position:relative" class="parent">
+        <div class="start_descrition">
+                <h1 class="h1">UNTAN KTM Barcode Scanner v18.1.35<span class="dona"></span></h1>
+                <span class="span">Silahkan Scan Barcode KTM Anda</span>
+                <div class="search_promo">
+                <div class="input-group">
+                    <input type="text" id="barcode" class="form-control" aria-label="...">
+                    <div class="input-group-btn btn_promo_search">
+                    <button type="button" style="font-family: 'Nanum Pen Script', cursive;font-size:25px;margin-top:0px" class="btn find btn-success">Find Me !</button>
+                    </div>
+                </div>
+                </div>
+        </div>
+    </div>
+    <div style="margin-left:3000px"  id="wraper">
+
+        <!-- Start Home-header section -->
+        <section style="background-color:#88aacc" class="home-header  padding-block">
+            <!-- start container -->
+            <div class="container">
+                <!-- start row -->
+                <div class="row">
+                    <div class="col-xs-12 col-sm-4 col-lg-4 text-right">
+                        <!-- Your foto -->
+                        <div class="foto">
+                            <!-- for man -->
+                            <img id="foto" src="./assets/img/photo.png" alt="Ukieweb">
+                            <!-- for women -->
+                            <!-- <img src="./assets/img/photo_female.png" alt="Ukieweb"> -->
+                        </div>
+                        <!-- end your foto -->
+                    </div>
+                    <div class="col-xs-12 col-sm-8 col-lg-8">
+                        <!-- Your Name -->
+                        <h1 style="color:#b6f16a" id="nama" class="title">Bagus Jati Kuncoro</h1>
+                        <!-- Your Profession -->
+                        <h3  style="color:#ffff" class="sub-title">H1051131061</h3>
+                        <!-- social icon -->
+                        <h2  style="color:#ffff; margin-top:15px;font-size:35px" class="sub-title"><i class="fa fa-code-branch"></i> Fakultas Mipa - Sistem Komputer</h2>                        
+                        <!-- end social icon -->
+                    </div>
+                </div>
+                <!-- end row -->
+            </div>
+            <!-- end container -->
+        </section>
+        <!-- End Home-header section -->
+
+        <!-- Start Menu section -->
+        <nav style="height:270px" class="menu">
+            <!-- start container -->
+            <div class="container">
+                <!-- start row -->
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-lg-12">
+
+
+                        <!-- start menu block (portfolio) -->
+                        <a href="#" class="menu-li">
+                            <!-- img menu block -->
+                            <span class="foto">
+                                <img style="width:170px" src="https://www.ascendantfx.com/hs-fs/hubfs/assets/keep_safe.png?t=1509377522284&width=361&name=keep_safe.png" class="menu-img" data-img-name="portfolio" alt="Ukieweb">
+                            </span>
+                            <!-- name menu block -->
+                            <span style="font-weight:bold;color:#456d6d" class="name">Please Wait . . .</span>
+                        </a>
+                        <!-- end menu block (portfolio) -->
+                        <div class="result" style="display:none" >
+                            <span class="foto">
+                                <h1 style="position:absolute;margin-left:430px;margin-top:-148px;color:#4b617d">YOUR PASSWORD IS:</br><span id="password" class="label label-danger">Condamaru</span></h1>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <!-- end row -->
+            </div>
+            <!-- end container -->
+        </nav>
+        <!-- End Menu section -->
+
+        <!-- Start Footer section -->
+        <footer class="footer">
+            <!-- start container -->
+            <div class="container">
+                <!-- start row -->
+                <div class="row">
+                    <!-- start phone number -->
+                    <div class="col-xs-12 col-sm-8 col-lg-8">
+                        <span class="ukie-icons hover-animate"><i class="fa fa-code"></i></span>
+                        <a href="#" class="hover-animate">
+                             “HARD WORK Beat Talent When TALENT doesn't Work Hard”
+                        </a>
+                    </div>
+                    <!-- start Copyright -->
+                    <div style="float:right" class="col-xs-12 col-sm-6 col-lg-3 text-right">
+                        <span class="copyright">Copyright © 2018 Upt Tik UNTAN</span>
+                    </div>
+                    <!-- end Copyright -->
+                </div>
+                <!-- end row -->
+            </div>
+            <!-- end container -->
+        </footer>
+        <!-- End Footer section -->
+
+    </div>
+
+    <!-- Scroll to Top -->
+    <!-- <a href="#" class="btn hover-animate scrollToTop"><i class="fa fa-angle-up"></i></a> -->
+    <!-- End Scroll to Top -->
+
+    <!-- Style Switcher -->
+    <!-- delete this from site once you have decided on a colour scheme - follow documentation for insructions -->
+
+    <!-- end Style Switcher -->
+
+    <!-- Style Contact Form -->
+    <!-- delete this from site once you have decided on a colour scheme - follow documentation for insructions -->
+    <!-- Button Style open -->
+  
+    <!-- End Button Style open -->
+    <!-- End Style Contact Form -->
+
+<!-- Scripts -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/sweetalert2/6.4.4/sweetalert2.min.js"></script>
+<script src="assets/js/jquery-1.11.2.min.js" type="text/javascript"></script>
+<script src="assets/js/scripts.js" type="text/javascript"></script>
+</body>
+<script>
+    function passAnimate(){
+        $('.menu-li').animate({ "margin-left": -500 },1600,function(){
+        $('.result').fadeIn('slow');        
+        });
+        $('.name').fadeOut('slow')
+      };
+  
+     
+    
+// $('.find').click(function(){
+//     $('.parent').animate({"margin-left":-2700},2000)   
+//     $('#wraper').animate({"margin-left":'12%'},2500,function(){
+//         setTimeout(function(){
+//           passAnimate();
+//       },1800)  
+//     })   
+
+// })
+
+$('#barcode').focus();
+  $('#barcode').keypress(function(e){
+    if(e.which == 13){
+      var nim = $('#barcode').val();
+      // for her
+      if (nim=='F1131141022'){
+        swal({
+                    title: 'Error,Hubungi Andreas Christian!',
+                    text: 'Error',
+                    timer: 5000
+                  }).then(
+                    function () {},
+                    // handling the promise rejection
+                    function (dismiss) {
+
+                      $('#barcode').focus().select();
+                      if (dismiss === 'timer') {
+                        console.log('I was closed by the timer')
+                      }
+                    }
+                  );
+        return false;
+      }
+      // end
+        $.ajax({
+          url : 'barcode.php',
+          data : {
+            nim : nim
+          },
+          success : function(data){
+
+            if (data == 'empty'){
+              swal({
+                    title: 'Terjadi Kesalahan!',
+                    text: 'Data Tidak Ada',
+                    timer: 1500
+                  }).then(
+                    function () {},
+                    // handling the promise rejection
+                    function (dismiss) {
+                      if (dismiss === 'timer') {
+                        console.log('I was closed by the timer')
+                      }
+                    }
+                  );
+          }else {
+            $('.parent').animate({"margin-left":-2700},1000)   
+            $('#wraper').animate({"margin-left":'12%'},1000,function(){
+                setTimeout(function(){
+                    passAnimate();
+                },1000)  
+            })
+            function progress(timeleft, timetotal, $element) {
+                var progressBarWidth = timeleft * $element.width() / timetotal;
+                $element.find('div').animate({ width: progressBarWidth }, 500).html(timeleft);
+                if(timeleft > 0) {
+                    setTimeout(function() {
+                      var format = '%S';
+                      // (this).html(event.strftime(format));D1041131058
+                        progress(timeleft - 1, timetotal, $element);
+                    }, 700);
+                }
+                else{
+                  $(this).html('')
+                .parent().addClass('disabled');
+                    $('#barcode').val('');
+                    $('#nama').text('Scan KTM');
+                    $('#password').text('');
+                    $("#foto").attr('src', './assets/img/photo.png' );
+                    $('.parent').animate({"margin-left":-10},1000); 
+                    $('#wraper').animate({"margin-left":3000},1000);
+                    // $("#table tr td").remove();
+                }
+            };
+
+            progress(10, 10, $('#progressBar'));
+            $('#barcode').focus().select();
+            // $("#table tr td").remove();
+            var data1 = JSON.parse(data);
+            $('#nama').text(data1['result'][0][0]['nama']);
+            $('#password').text(data1['result'][0][0]['passwd']);
+
+            var foto = data1[1]['result'][0]['photo'];
+            // console.log(foto);
+          $("#foto").attr('src', 'data:image/png;base64,'+foto+' ' );
+        //   var tr;
+        //   for (var i = 0 ; i < data1[0]['result'][0].length ; i ++ ){
+        //       tr = $('<tr/>');
+        //       tr.append("<td>"+ data1[0]['result'][0][i].kodemk+"</td>" );
+        //       tr.append("<td>"+ data1[0]['result'][0][i].namamk+"</td>" );
+        //         tr.append("<td>"+ data1[0]['result'][0][i].nilaihuruf+"</td>" );
+        //       $('table.isi').append(tr);
+        //     }
+          }
+
+            // console.log(data1['result'][0][0]['pic'],data1[0]['result'][0][0]);
+          }
+        });
+
+    }
+
+  });
+
+</script>
+</html>
